@@ -12,7 +12,13 @@ private class {{ api_name }} {
 	}
 	
 	static testMethod void test_method_one() {
-		// Implement test code
+		//Queries and variable initialization
+		
+		Test.startTest();
+		
+		//implement test code
+		
+		Test.stopTest();
 	}
 	
 }
