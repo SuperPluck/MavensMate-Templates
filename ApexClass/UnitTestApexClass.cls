@@ -1,24 +1,12 @@
 @isTest
 private class {{ api_name }} {
 	
-	static {
-		//initilize static variables
-	}
-
-	@testSetup static void createData() {
-		// call data creating classes and other setup
-		// data created here must be queried in order 
-		// to be accessed on test methods
+	@isTest static void test_method_one() {
+		// Implement test code
 	}
 	
-	static testMethod void test_method_one() {
-		//Queries and variable initialization
-		
-		Test.startTest();
-		
-		//implement test code
-		
-		Test.stopTest();
+	@isTest static void test_method_two() {
+		// Implement test code
 	}
 	
 }
